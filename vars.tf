@@ -1,3 +1,4 @@
+# Define variables for region, availability zones, user, public key, and IP address
 variable "REGION" {
   default = "us-east-1"
 }

@@ -1,4 +1,4 @@
-# add the below resources in the sg.tf file to create a new security group
+# Create a security group to allow SSH access
 resource "aws_security_group" "terrafrom_sg" {
   name        = "allow_ssh"
   description = "sg for to allow ssh"

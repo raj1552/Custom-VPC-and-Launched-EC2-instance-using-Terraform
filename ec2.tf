@@ -1,5 +1,4 @@
-# add the below resource in the ec2.tf file to launch an ec2 instance
-
+# launch an ec2 instance in the public subnet with the created key pair and security group
 resource "aws_key_pair" "terraform_key" {
   key_name   = "terraform-key"
   public_key = var.PUB_KEY
