@@ -4,6 +4,8 @@ This Terraform project creates a custom VPC in AWS with public and private subne
 
 ## Architecture
 
+![Infrastructure Diagram](figure.png)
+
 The infrastructure includes:
 - A VPC with CIDR `10.0.0.0/16`
 - 3 Public subnets across different availability zones
